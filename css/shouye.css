@@ -1,0 +1,547 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+header{
+	width:100%; 
+	background: #707070;
+	height: 58px;
+	background-color: rgba(112,112,112,0.5);
+	position: absolute;
+	z-index: 3;
+}
+nav{width: 1920px; 
+	margin: 0 auto;
+	height: 58px;
+}
+nav a{color: white; 
+	font-size:13px;
+	display: block;
+	padding: 20px 30px;
+	font-weight: bold;
+}
+nav ul{
+	margin-left: 350px;
+	float: left;
+}
+nav li{
+	float: left;
+	}
+nav li a:hover{
+	color: #9d8540;
+	background: url(../images/首页/index-icon2-1.png) no-repeat 35px 43px;
+}
+/* 关于我们特殊的 */
+#te:hover{
+	background:  url(../images/首页/index-icon2-1.png) no-repeat 48px 43px;
+}
+/* 头部 */
+#tou{
+	float: left;
+	height: 58px;
+	}
+#logo{
+	float: left;
+	margin-left: 185px ;
+	margin-top: 5px;
+}
+#dz{
+	width: 48px;
+	height: 23px;
+	background: url(../images/首页/1225506.png) no-repeat ;
+	float: left;
+}
+#you{
+	float:left ;
+	margin-left: 350px;
+	padding-top: 11px;
+	margin-top: 6px;
+	position: relative;
+}
+#dz2{
+	float: left;
+	background: url(../images/首页/搜索.png) no-repeat ;
+}
+#shang{
+	margin-left: 15px;
+}
+#shang a{color: white;}
+#you p{float: left; margin-left: 5px; margin-right: 13px; color: white;}
+#zheng{width: 100%;}
+#bufen{
+	position: absolute;
+	top: 1040px;
+	left: 900px;
+}
+#bufen li{
+	float: left;
+	margin-left: 20px;
+}
+/* 轮播图 */
+#lunbo{
+	width: 1900px; 
+	position: relative; 
+	height: 1080px;
+	overflow: hidden;
+}
+#lb{
+	width: 5760px;
+	position: absolute;
+}
+#lb li{
+	float: left;
+}
+/* 主体部分 */
+section{
+	width: 1920px;
+	margin: 0 auto;
+	clear: both;
+}
+#ggjj{
+	width: 388px;
+	height: 380px;
+	background: #771f1e;
+	float: left;
+	margin-top: 20px;
+}
+#ggjj h3{
+	width: 216px;
+	height: 56px;
+	background: url(../images/首页/ggjj.png) no-repeat;
+	padding-left: 43px;
+	padding-top: 11px;
+	font-size: 24px;
+	color: white;
+	margin: 11px 24px;
+	float: left;
+	font-family: '微软雅黑';
+
+}
+#ggjj p{
+	float: left;
+	text-indent: 2em;
+	color: white;
+	font-size: 14px;
+	line-height: 28px;
+	margin-left: 28px;
+}
+#sf{
+	width: 386px;
+	height: 380px;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+}
+#sf img{
+	width: 386px;
+	height: 380px;
+	transition: transform 0.7s linear 0s;
+
+}
+#sf img:hover{
+	transform: scale(1.2);
+	
+}
+#yi,#er,#san{
+	width:170px ;
+	height: 380px;
+	float: left;
+	margin-top: 20px;
+}
+#yi{
+	background: #a47f4d;
+	margin-left: 10px;
+	overflow: hidden;
+	position: relative;
+}
+#er{
+	background: #7a2221;
+	overflow: hidden;
+	position: relative;
+}
+#san{
+	background: #574143;
+	overflow: hidden;
+	position: relative;
+}
+#bei{
+	opacity: 0.3;
+	animation: rotate 15.5s linear infinite;
+	position: absolute;
+	left: 28px;
+	top: 20px;
+}
+#bei{
+	opacity: 0.3;
+	animation: rotate 15.5s linear infinite;
+	position: absolute;
+		left: 28px;
+		top: 20px;
+}
+#zhan{
+	margin-top: 30px;
+	width: 130px;
+	height: 130px;
+}
+#yi h4{
+	color: white;
+}
+#er h4{
+	color: white;
+}
+#san h4{
+	color: white;
+}
+#yi p{
+	color: white;
+	font-size:12px;
+	padding-top:20px
+}
+#er p{
+	color: white;
+	font-size:12px;
+	padding-top:20px
+}
+#san p{
+	color: white;
+	font-size:12px;
+	padding-top:20px
+}
+#sbei{
+	opacity: 0.7;
+	animation: rotate 15.5s linear infinite;
+	position: absolute;
+	top: 20px;
+	left: 28px;
+}
+#youban{
+	height: 500px;
+	width: 520px;
+	float: left;
+	margin-left: 15px;
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg)
+	}
+
+	to {
+		transform: rotate(360deg)
+	}
+}
+/* 搜索框 */
+#ssk{
+	position: absolute;
+	left:55px ;
+	top: 50px;
+	display: none;
+}
+#kuang{
+	border:#999 2px solid;
+	border-radius: 20px;
+	width: 210px;
+	height: 35px;
+	padding-left: 8px;
+	background:white url(../images/首页/搜索.png) no-repeat 170px 4px;
+}
+#cang{
+	width: 570px;
+	height: 380px;
+	background: #23384b;
+	float: left;
+	margin-left:20px;
+	margin-top: 20px;
+}
+#cang h3{
+	width: 216px;
+	height: 56px;
+	background: url(../images/首页/ggjj.png) no-repeat;
+	padding-left: 43px;
+	padding-top: 11px;
+	font-size: 24px;
+	color: white;
+	margin: 17px 28px;
+	float: left;
+	font-family: '微软雅黑';
+}
+#gd{
+	margin: 25px 0;
+	margin-left: 200px;
+}
+#shijian{
+	clear: both;
+	margin-left: 50px;
+}
+#shijian li{
+	float: left;
+	font-size: 38px;
+	font-weight: bold;
+	font-family: '方正姚体';
+	color: white;
+	margin-left: 5px;
+}
+#shijian li img{
+	padding-bottom: 10px;
+}
+#sz{
+	width: 150px;
+	height: 80px;
+}
+#deng{
+	position: relative;
+	display: none;
+}
+#deng input{
+	width: 70px;
+	height: 25px;
+	background-color:rgb(157,133,64,0.5);
+	color: white;
+	border: 0;
+	position: absolute;
+	top: 25px;
+	left: 35px;
+	border-radius: 10px;
+}
+#deng2{
+	position: relative;
+	display:none;
+}
+#sz2{
+	width: 150px;
+	height: 80px;
+	
+}
+#dui{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+#deng2 p{
+	color: #9D7949;
+	width: 100px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 32px;
+	left: 48px;
+}
+#sm{
+	clear: both;
+	padding-top: 20px;
+}
+#sm li{
+	font-size: 15px;
+	color: white;
+	margin-right: 28px;
+	float: left;	
+}
+#dingjia{
+	clear: both;
+	padding-top: 10px;
+	margin-left: 55px;
+}
+#dingjia span{
+	padding: 0 10px;
+}
+#dingjia li{
+	margin-bottom: 8px;
+	color:#a0b4c2;
+	font-size: 13px;
+}
+#zhenbao{
+	width: 1280px;
+	height: 538px;
+	float: left;
+	margin-top: 25px;
+}
+#zhenbao img{
+	margin-top: -210px;
+	width: 1290px;
+}
+#gonggao{
+	float: left;
+	width: 614px;
+	height: 628px;
+	background: #23384B;
+	margin-left: 20px;
+	margin-top: -64px;
+}
+#gonggao h3{
+	width: 216px;
+	height: 56px;
+	background: url(../images/首页/ggjj.png) no-repeat;
+	padding-left: 43px;
+	padding-top: 11px;
+	font-size: 24px;
+	color: white;
+	margin: 17px 28px;
+	float: left;
+	font-family: '微软雅黑';
+}
+#gonggao ul{
+	float: left;
+	margin-left: 30px;
+}
+#gonggao li{
+	margin-top: 20px;
+}
+#gonggao a{
+	color:white ;
+	padding-left: 10px;
+}
+#zong{
+	width: 384px;
+	height: 462px;
+	float: left;
+	background: #9d7949;
+	margin-top: 20px;
+}
+#zong h3{
+	width: 216px;
+	height: 56px;
+	background: url(../images/首页/ggjj.png) no-repeat;
+	padding-left: 40px;
+	padding-top: 11px;
+	font-size: 24px;
+	color: white;
+	margin: 17px 70px;
+	font-family: '微软雅黑';
+}
+#fen{
+	width: 8px;
+	height: 33px;
+	margin: 0 170px;
+}
+#zong h2{
+	color: white;
+	margin: 17px 60px;
+	font-family: '微软雅黑';
+	padding-left: 40px;
+	padding-top: 11px;
+	float: left;
+}
+#jian{
+	float: left;
+	width: 55px;
+	height: 55px;
+	margin-top: 18px;
+	margin-left: -40px;
+	background: url(../images/首页/火狐截图2019-12-13T04-49-5_11.gif) no-repeat;
+	line-height: 55px;
+	text-align: center;
+	color: white;
+}
+#zp{
+	margin-left: 60px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+#zong a{
+	display: block;
+	width: 142px;
+	height: 40px;
+	background: url(../images/首页/火狐截图_2019-12-104-49-05_11.gif) no-repeat;
+	margin-left: 99px;
+	margin-top: 20px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+.wwt{
+	float: left;
+	margin-top: 20px;
+	width: 370px;
+	height: 463px;
+	margin-right: 10px;
+}
+#hd{
+	clear: both;
+	float: left;
+	background: url(../images/首页/home_block3_box_bg.jpg);
+	width: 1315px;
+	height: 477px;
+	margin-top: 20px;
+}
+#hd h3{
+	width: 216px;
+	height: 56px;
+	background: url(../images/首页/ggjj.png) no-repeat;
+	padding-left: 45px;
+	padding-top: 11px;
+	font-size: 24px;
+	color: white;
+	margin: 35px 70px;
+	font-family: '微软雅黑';
+}
+#sf2{
+	width: 565px;
+	height: 477px;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+}
+#sf2 img{
+	width: 665px;
+	height: 477px;
+	transition: transform 0.7s linear 0s;
+	padding-right: 30px;
+}
+#sf2 img:hover{
+	transform: scale(1.2);
+	
+}
+#hd dl{
+	margin-left: 70px;
+	float: left;
+	margin-top: 50px;
+}
+#hd dt img{
+	float: left;
+	vertical-align: middle;
+	margin-top: 6px;
+}
+#hd dt{
+	color:#ffd6d6;
+	font-size: 20px;
+	font-weight: none;
+}
+#hd dd{
+	margin-left: 15px;
+	margin-top: 20px;
+	color: white;
+}
+footer{
+	height: 184px;
+	width: 100%;
+	background: #272727;
+	clear: both;
+	margin-top: 20px;
+	float: left;
+}
+footer ul{
+	margin: 0 auto;
+	width: 650px;
+	margin-top: 20px;
+}
+footer li{
+	float: left;
+}
+footer a{
+	color: white;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+footer p{
+	float: left;
+	margin-right: 15px;
+	color: white;
+	font-size: 14px;
+}
+footer div{
+	width: 570px;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 15px;
+}

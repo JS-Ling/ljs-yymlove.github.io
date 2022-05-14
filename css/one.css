@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+section{
+	display: none;
+	height: 700px;
+	width: 800px;
+	margin: 100px auto;
+	box-shadow: 2px 2px 25px darkgrey;
+	background: white;
+	opacity: 0.8;
+}
+h1{
+	display: block;
+	width: 150px;
+	font-size: 60px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+span{
+	font-size: 20px;
+}
+#yi{
+	margin-left: 25%;
+	padding-top: 10%;
+	margin-bottom: 0px;
+}
+#yiy{
+	margin-left:25%;
+	margin-bottom: 20px;
+	height: 20px;
+	font-size: 13px;
+	text-indent: 5em;
+	color: red;
+}
+#zhang{
+	height: 30px;
+	width: 300px;
+	font-size: 20px;
+}
+#er{
+	margin-left: 25%;
+}
+#mima{
+	height: 30px;
+	width: 300px;
+	font-size: 20px;
+}
+#san{
+	margin-left: 35%;
+	margin-bottom: 20px;
+	height: 20px;
+	font-size: 13px;
+	text-indent: 5em;
+	color: red;
+}
+#si{
+	margin-left: 25%;
+	margin-bottom: 20px;
+	font-size: 13px;
+	text-indent: 5em;
+}
+#si a{
+	margin-right: 20px;
+	color: #A9A9A9;
+}
+#si a:hover{
+	color: dimgray;
+}
+#wu{
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+#wu input{
+	height: 50px;
+	width: 270px;
+	font-size: 20px;
+	margin-left: 60px;
+}

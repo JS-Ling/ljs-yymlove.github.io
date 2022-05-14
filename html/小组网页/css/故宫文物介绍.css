@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	background-color: #DEB887;
+}
+li{list-style: none;}
+#ssk{
+	position: absolute;
+	left:55px ;
+	top: 50px;
+	display: none;
+}
+#kuang{
+	border:#999 2px solid;
+	border-radius: 20px;
+	width: 210px;
+	height: 35px;
+	padding-left: 8px;
+	background:white url(../image/搜索.png) no-repeat 170px 4px;
+}
+#cang{
+	width: 614px;
+	height: 380px;
+	background: #23384b;
+	float: left;
+	margin-left:10px;
+	margin-top: 20px;
+}
+#cang h3{
+	width: 216px;
+	height: 56px;
+	background: url(image/ggjj.png) no-repeat;
+	padding-left: 43px;
+	padding-top: 11px;
+	font-size: 24px;
+	color: white;
+	margin: 17px 28px;
+	float: left;
+	font-family: '微软雅黑';
+}
+header{
+	width:100%; 
+	background: #707070;
+	height: 58px;
+	background-color: rgba(112,112,112,0.5);
+	z-index: 3;
+}
+nav{width: 1920px; 
+	margin: 0 auto;
+	height: 58px;
+}
+nav a{color: white; 
+	font-size:13px;
+	display: block;
+	padding: 20px 30px;
+	font-weight: bold;
+}
+nav ul{
+	margin-left: 350px;
+	float: left;
+}
+nav li{
+	float: left;
+	}
+nav li a:hover{
+	color: #9d8540;
+	background: url(image/index-icon2-1.png) no-repeat 35px 43px;
+}
+#deng{
+	position: relative;
+	display: none;
+}
+#deng input{
+	width: 70px;
+	height: 25px;
+	background-color:rgb(157,133,64,0.5);
+	color: white;
+	border: 0;
+	position: absolute;
+	top: 25px;
+	left: 35px;
+	border-radius: 10px;
+}
+#deng2{
+	position: relative;
+	display:none;
+}
+#sz2{
+	width: 150px;
+	height: 80px;
+	
+}
+#dui{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+#deng2 p{
+	color: #9D7949;
+	width: 100px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 32px;
+	left: 48px;
+}
+/* 关于我们特殊的 */
+#te:hover{
+	background:  url(image/index-icon2-1.png) no-repeat 48px 43px;
+}
+/* 头部 */
+#tou{
+	float: left;
+	height: 58px;
+	}
+#logo{
+	float: left;
+	margin-left: 185px ;
+	margin-top: 5px;
+}
+#dz{
+	width: 48px;
+	height: 23px;
+	background: url(../image/1225506.png) no-repeat ;
+	float: left;
+}
+#you{
+	float:left ;
+	margin-left: 350px;
+	padding-top: 11px;
+	margin-top: 6px;
+	position: relative;
+}
+#dz2{
+	float: left;
+	background: url(image/搜索.png) no-repeat ;
+}
+#shang{
+	margin-left: 15px;
+}
+#you p{float: left; margin-left: 5px; margin-right: 13px; color: white; margin-top: -2px;}
+div{
+	float: left;
+	color: black;
+}
+#zhengti{
+	background-color: burlywood;
+	width: 100%;
+	height: 100%;
+}
+#shangbu{
+	width: 1200px;
+	height: 1000px;
+	
+	
+}
+#yi{
+	background: url(../image/s5835a5845f08b.jpg);
+	
+}
+#yi img{
+	margin-top: 150px;
+}
+#er img{
+	margin-top: 150px;
+}
+#san img{
+	margin-top: 150px;
+}
+#si img{
+	margin-top: 150px;
+}
+#wu img{
+	margin-top: 150px;
+}
+#liu img{
+	margin-top: 150px;
+}
+dl{
+	float: left;
+	margin-left: 15px;
+}
+dd{
+	font-family: "华文隶书";
+}
+footer{
+	height: 184px;
+	width: 100%;
+	background: #272727;
+	clear: both;
+	margin-top: 30px;
+	float: left;
+}
+footer ul{
+	margin: 0 auto;
+	width: 850px;
+	margin-top: 20px;
+}
+footer li{
+	float: left;
+}
+footer a{
+	color: white;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+footer p{
+	float: left;
+	margin-right: 15px;
+	color: white;
+	font-size: 14px;
+}
+footer div{
+	width: 470px;
+	margin: 0 auto;
+	clear: both;
+	margin-left: 680px;
+	padding-top: 15px;
+}
+.zuo,.you,.dazuo,.fushu{
+	width: 0px;
+	overflow: hidden;
+	transition: width 2s linear 0s;
+}
